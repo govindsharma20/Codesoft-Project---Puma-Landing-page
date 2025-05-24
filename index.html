@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puma Shoes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://wallpapers.com/images/featured/puma-1bn2f1fusw26uqnr.jpg" alt="Puma Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Puma Shoes</h1>
+        <p>Discover the latest Puma shoes collection</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/378019/02/dt04/fnd/IND/fmt/png/SOFTRIDE-Feel-Men's-Slip-On-Unisex-Walking-Shoes" alt="Shoe 1">
+            <h3>Shoe 1</h3>
+            <p>Price: $100</p>
+            <button onclick="buyNow()">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/376957/01/dt04/fnd/IND/fmt/png/SOFTRIDE-Premier-So-Splatter-Men's-Running-Shoes" alt="Shoe 2">
+            <h3>Shoe 2</h3>
+            <p>Price: $120</p>
+            <button onclick="buyNow()">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/193737/01/dt04/fnd/IND/fmt/png/SOFTRIDE-Rift-Tech-Men's-Walking-Shoes" alt="Shoe 3">
+            <h3>Shoe 3</h3>
+            <p>Price: $90</p>
+            <button onclick="buyNow()">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/379084/03/dt06/fnd/IND/fmt/png/Electrify-NITRO-3-Knit-Men's-Running-Shoes" alt="Shoe 4">
+            <h3>Shoe 4</h3>
+            <p>Price: $110</p>
+            <button onclick="buyNow()">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/391863/01/dt06/fnd/IND/fmt/png/Puma-Alfarun-Men's-Sneakers" alt="Shoe 5">
+            <h3>Shoe 5</h3>
+            <p>Price: $130</p>
+            <button onclick="buyNow()">Buy Now</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Puma is a renowned global sportswear brand, recognized for its high-quality athletic and casual footwear, apparel, and accessories. Founded in 1948 by Rudolf Dassler in Herzogenaurach, Germany, Puma has grown to become one of the leading sports brands in the world. The brand is known for its innovative designs, performance-enhancing technology, and stylish aesthetics that cater to both professional athletes and everyday consumers.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
